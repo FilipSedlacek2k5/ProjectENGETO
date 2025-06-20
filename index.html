@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <title>Netflix</title>
+  </head>
+  <body>
+    <nav class="top-bar">
+      <img class="logo-img" src="obrazky/netflix-logo.png" alt="Netflix logo" />
+      <a href="register.html" class="register-btn">Registrace</a>
+    </nav>
+    <!-- Text uprostřed -->
+    <section class="hero-text">
+      <h1>Neomezené sledování filmů, TV pořadů a dalšího obsahu</h1>
+      <p class="subtext">Už od 239 Kč. Zrušte kdykoli.</p>
+      <p class="info-text">
+        Jste připraveni se dívat? Pro vytvoření nebo obnovení členství zadejte
+        e-mail.
+      </p>
+      <!-- Bar pro emailovou adresu + tlačítko -->
+      <div class="form-wrapper">
+        <form class="email-form" action="#" method="POST">
+          <input type="email" placeholder="E-mailová adresa" required />
+        </form>
+        <button class="submit-button" type="submit" form="email-form">
+          Začít
+        </button>
+      </div>
+    </section>
+    <!-- Sekce s obrázky + tlačítkem -->
+    <section class="image-section">
+      <div class="image-row">
+        <img src="obrazky/bugs-life.jpeg" alt="bugs life film" />
+        <img src="obrazky/thor.jpeg" alt="thor film" />
+        <img src="obrazky/avengers.jpg" alt="avengers film" />
+      </div>
+      <a href="filmList.html" class="find-more-btn">Najít další filmy</a>
+    </section>
+    <!-- Patice s různými odkazy -->
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <p>Často kladené dozaty</p>
+          <p>Vztahy s investory</p>
+          <p>Jak se dívat</p>
+          <p>Podnikové informace</p>
+          <p>Právní oznámení</p>
+        </div>
+        <div class="footer-column">
+          <p>Centrum zákaznické podpory</p>
+          <p>Kariéra</p>
+          <p>Podmínky používání</p>
+          <p>Kontaktujte nás</p>
+          <p>Uvádí jedině Neflix</p>
+        </div>
+        <div class="footer-column">
+          <p>Účet</p>
+          <p>Uplatněte dárkové poukazy</p>
+          <p>Soukromí</p>
+          <p>Test rychlosti</p>
+          <p>Reklamy</p>
+        </div>
+        <div class="footer-column">
+          <p>Pro média</p>
+          <p>Koupit dárkové poukazy</p>
+          <p>Nastavení souborů cookie</p>
+          <p>Právní záruka</p>
+        </div>
+      </div>
+    </footer>
+<!-- Tlačítko pro scrollování nahoru -->
+    <i id="scrollToTop" class="fa-regular fa-circle-up"></i>
+    <script src="script.js" defer></script>
+  </body>
+</html>

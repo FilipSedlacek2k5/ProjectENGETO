@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Filmy TVMaze</title>
+    <link rel="stylesheet" href="styleFilm.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Tlačítko pro vrácení se zpět na úvodní stránku -->
+      <a href="index.html" class="back-link">Úvodní stránka</a>
+      <!-- roletka pro různé kategorie -->
+      <select id="movie-select">
+        <option value="girl">Girl</option>
+        <option value="boy">Boy</option>
+        <option value="avengers">Avengers</option>
+        <option value="horror">Horor</option>
+      </select>
+
+      <div id="movies-container"></div>
+    </div>
+    <script src="filmList.js" defer></script>
+  </body>
+</html>
